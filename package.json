@@ -1,14 +1,13 @@
 {
   "name": "vite-project",
+  "homepage": "https://urielodev.github.io/vite-prueba/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://UrielOdev.github.io/vite-prueba",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
